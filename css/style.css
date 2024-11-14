@@ -1,0 +1,12 @@
+.conatiner{
+    background-color: red;
+}
+#first{
+    background-color: yellow;
+}
+div .para{
+    background-color: blueviolet;
+}
+div #para1{
+    background-color: brown;
+}
