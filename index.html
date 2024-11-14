@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,6 +6,106 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>HELLO, GIT work</h1>
+    
+    <table>
+        <table border="2" width="100%">
+        <thead></thead>
+        <tbody>
+            <tr>
+                <td colspan="2">Main Header</td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="./Login.html" target="myframe">Login </a>
+                    <br><br>
+                    <a href="./Registration.html" target="myframe">Registration </a>
+                </td>
+                <td>
+                    <iframe name="myframe" height="300" width="100%" style="background-color: blueviolet;"></iframe>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">Footer</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            
+        </tfoot>
+        <br><br><br><br><br><br>
+        <h2>About java language</h2>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae suscipit in aliquam veritatis itaque facilis aspernatur sapiente possimus maiores quaerat voluptate vitae at asperiores, odio nam assumenda eos vel doloribus.</p>
+    </table>
+</body>
+</html> -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulb Segment</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .main{
+        height: 80vh;
+        width: 80%;
+        background-color: blueviolet;
+        padding: 20px 20px;
+    }
+    .btn{
+        background-color: white;
+        border: none;
+        text-decoration: none;
+        padding: 10px 20px;
+        color: black;
+        position: absolute;
+        z-index: 99;
+        cursor: pointer;
+    }
+    input{
+        padding: 10px 20px;
+    }
+    .btn2{
+        background-color: white;
+        border: none;
+        text-decoration: none;
+        padding: 10px 20px;
+        color: black;
+    }
+    .searchbox{
+        position: relative;
+    }
+    .in{
+        display: none;
+        position: absolute;
+    }
+</style>
+<body>
+    <h1 class="heading">Bulb Segment</h1>
+    <div class="main">
+        <div class="searchbox">
+            <button class="btn">Start</button>
+            <div class="in">
+                <input type="number" id="inpt" placeholder="Enter the number of bulbs">
+                <a href="" class="btn2">Show</a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="./jsproject/index.js"></script>
 </body>
 </html>
